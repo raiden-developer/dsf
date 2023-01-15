@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Каталог товаров на сайте DSF">
+
+    <title>История</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+    
+    
+<header class="header">
+    <div class="container">
+        <nav class="header__nav">
+            <div class="header__menu">
+                <a class="header__logo" href="#">
+                    <img class="header__image" src="img/logo.svg" alt="Логотип">
+                </a>
+                <ul class="header__list">
+                    <li class="header__item header__item--active">
+                        <a class="header__link" href="#">Каталог</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">История заказов</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">План заказов</a>
+                    </li>
+                    <li class="header__item header__item--mobile">
+                        <a class="header__link" href="#">Профиль</a>
+                    </li>
+                </ul>
+                <button class="header__menu-close hamburger hamburger--spring">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                    <span class="visually-hidden">Закрыть меню</span>
+                </button>
+            </div>
+            <h1>История заказов</h1>
+            <button class="header__mobile-btn header__mobile-btn--search">
+                <svg class="s-icon">
+                    <use xlink:href="img/svg/sprite1.svg#magnifier"></use>
+                </svg>
+                <span class="visually-hidden">Вызвать поле поиска</span>
+            </button>
+            
+            <a class="header__navblock" href="#">
+                <div class="header__icon">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#cart"></use>
+                    </svg>
+                </div>
+                <div class="header__info">
+                    <div class="header__top">352 245,59 ₸</div>
+                    <div class="header__text"><span>10</span> тов.</div>
+                </div>
+            </a>
+            <div class="header__navblock header__navblock--profile">
+                <div class="header__icon">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#user"></use>
+                    </svg>
+                </div>
+                <div class="header__info">
+                    <span class="header__top">Т. Бекмамбетов</span>
+                    <div class="header__text">
+                        АЗС №34, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                    </div>
+                </div>
+                <div class="header__dropdown">
+                    <div class="header__top header__top--dark">Тимур Бекмамбетов</div>
+                    <p class="header__descr">
+                        Товарищество с ограниченной ответственностью \"Alshaya Kazakhstan\" (Алшая Ка
+                    </p>
+                    <a class="header__btn btn btn--secondary btn--small" href="#">Сменить пароль</a>
+                    <a class="header__btn header__btn--exit btn btn--secondary btn--small" href="#"
+                        data-da="header__menu,0,991">Выйти</a>
+                </div>
+            </div>
+            <div class="search-block search-block--dark header__search">
+                <form class="search-block__form" action="search.php" method="POST">
+                    <label class="search-block__label">
+                        <span class="visually-hidden">Наименование или штрих-код</span>
+                        <input class="search-block__input" type="search"
+                            placeholder="Наименование или штрих-код">
+                    </label>
+                    <button class="search-block__icon" type="button">
+                        <span class="visually-hidden">Искать</span>
+                        <svg class="s-icon s-icon--large">
+                            <use xlink:href="img/svg/sprite1.svg#cancel"></use>
+                        </svg>
+                    </button>
+                </form>
+                <!-- Список с результатми поиска, для показа добавить класс active -->
+                <ul class="search-block__result">
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__title">
+                                АЗС №24, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                            </div>
+                            <p class="search-block__text">
+                                Актюбинская обл., Мугалжарский район, город районного значения
+                                Кандыгаш, трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </p>
+                        </a>
+                    </li>
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__title">
+                                АЗС №20, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                            </div>
+                            <p class="search-block__text">
+                                Кандыгаш, трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </p>
+                        </a>
+                    </li>
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__text">
+                                Актюбинская обл., Мугалжарский район, город районного значения Кандыгаш,
+                                трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Класс немноного другой если не найдено ничего -->
+                    <!-- <li class="search-block__none">Ничего не найдено...</li> -->
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <main class="main">
+        <section>
+            
+            
+            
+            
+            <div class="page-header ">
+    <div class="container">
+        <div class="page-header__inner">
+            <div class="page-header__left">
+                <h1>История заказов</h1>
+                
+                <div class="page-header__quantity">60</div>
+                
+            </div>
+
+            
+            <div class="search-block page-header__right">
+                <form class="search-block__form" action="search.php" method="POST">
+                    <label class="search-block__label">
+                        <span class="visually-hidden">Поиск по номеру заказа, номеру договора или сумме заказа</span>
+                        <input class="search-block__input" type="search"
+                            placeholder="Поиск по номеру заказа, номеру договора или сумме заказа">
+                    </label>
+                    <button class="search-block__icon">
+                        <span class="visually-hidden">Искать</span>
+                        <svg class="s-icon s-icon--large">
+                            <use xlink:href="img/svg/sprite1.svg#search"></use>
+                        </svg>
+                    </button>
+                </form>
+                <!-- Список с результатми поиска, для показа добавить класс active -->
+                <ul class="search-block__result">
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__title">
+                                АЗС №24, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                            </div>
+                            <p class="search-block__text">
+                                Актюбинская обл., Мугалжарский район, город районного значения
+                                Кандыгаш, трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </p>
+                        </a>
+                    </li>
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__title">
+                                АЗС №20, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                            </div>
+                            <p class="search-block__text">
+                                Кандыгаш, трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </p>
+                        </a>
+                    </li>
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__text">
+                                Актюбинская обл., Мугалжарский район, город районного значения Кандыгаш,
+                                трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Класс немноного другой если не найдено ничего -->
+                    <!-- <li class="search-block__none">Ничего не найдено...</li> -->
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+            <div class="history-table">
+    <div class="container">
+        <div class="history-table__inner">
+            <ul class="history-table__header">
+                <li class="history-table__title history-table__title--first">
+                    Номер
+                </li>
+                <li class="history-table__title history-table__title--second">
+                    Дата
+                </li>
+                <li class="history-table__title history-table__title--third">
+                    Плательщик
+                </li>
+                <li class="history-table__title history-table__title--fourth">
+                    Сумма заказа
+                </li>
+                <li class="history-table__title history-table__title--fifth">
+                    Договор
+                </li>
+                <li class="history-table__title history-table__title--sixth">
+                    Статус оплаты
+                </li>
+                <li class="history-table__title history-table__title--seventh">
+                    Статус заказа
+                </li>
+                <li class="history-table__title history-table__title--eighth">
+                    <!-- Док-ты -->
+                </li>
+            </ul>
+            <ul class="history-table__list">
+                <li class="history-table__item">
+                    <a href="history-view.html" class="history-table__link">
+                        <span class="visually-hidden">Перейти на страницу заказа</span>
+                    </a>
+                    <div class="history-table__col history-table__col--first">
+                        <div class="history-table__text">284651518461</div>
+                    </div>
+                    <div class="history-table__col history-table__col--second">
+                        <div class="history-table__text">08.12.2020, 10:30</div>
+                    </div>
+                    <div class="history-table__col history-table__col--third">
+                        <div class="history-table__text">ООО «Арт Проект»</div>
+                    </div>
+                    <div class="history-table__col history-table__col--fourth">
+                        <div class="history-table__text">158 000,00 <span class="currency">₸</span></div>
+                    </div>
+                    <div class="history-table__col history-table__col--combined">
+                        <div class="history-table__row">
+                            <div class="history-table__text">№S0303M19 от 05.11.2019</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">Требует предоплаты</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">№48464 от 11.07.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Оплачен</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">На сборке</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--eighth">
+                        <div class="history-table__docs">
+                            <svg class="s-icon s-icon--largest">
+                                <use xlink:href="img/svg/sprite1.svg#download"></use>
+                            </svg>
+                        </div>
+                        <ul class="history-table__dropdown">
+                            <li><a href="#" download>Скачать все</a></li>
+                            <li><a href="#" download>Накладная 1</a></li>
+                            <li><a href="#" download>Накладная 2</a></li>
+                            <li><a href="#" download>Накладная 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="history-table__item">
+                    <a href="history-view.html" class="history-table__link">
+                        <span class="visually-hidden">Перейти на страницу заказа</span>
+                    </a>
+                    <div class="history-table__col history-table__col--first">
+                        <div class="history-table__text">00140457895</div>
+                    </div>
+                    <div class="history-table__col history-table__col--second">
+                        <div class="history-table__text">12.11.2020, 10:30</div>
+                    </div>
+                    <div class="history-table__col history-table__col--third">
+                        <div class="history-table__text">
+                            ООО «Длинное название
+                            компании в несколько строк»
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--fourth">
+                        <div class="history-table__text">25 050,52 <span class="currency">₸</span></div>
+                    </div>
+                    <div class="history-table__col history-table__col--combined">
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Оплачен</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Доставлен</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Оплачен</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Доставлен</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Оплачен</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Доставлен</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--eighth">
+                        <div class="history-table__docs">
+                            <svg class="s-icon s-icon--largest">
+                                <use xlink:href="img/svg/sprite1.svg#download"></use>
+                            </svg>
+                        </div>
+                        <ul class="history-table__dropdown">
+                            <li><a href="#" download>Скачать все</a></li>
+                            <li><a href="#" download>Накладная 1</a></li>
+                            <li><a href="#" download>Накладная 2</a></li>
+                            <li><a href="#" download>Накладная 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="history-table__item">
+                    <a href="history-view.html" class="history-table__link">
+                        <span class="visually-hidden">Перейти на страницу заказа</span>
+                    </a>
+                    <div class="history-table__col history-table__col--first">
+                        <div class="history-table__text">00140457902</div>
+                    </div>
+                    <div class="history-table__col history-table__col--second">
+                        <div class="history-table__text">08.12.2020, 10:30</div>
+                    </div>
+                    <div class="history-table__col history-table__col--third">
+                        <div class="history-table__text">ООО «Арт Проект»</div>
+                    </div>
+                    <div class="history-table__col history-table__col--fourth">
+                        <div class="history-table__text">158 000,00 <span class="currency">₸</span></div>
+                    </div>
+                    <div class="history-table__col history-table__col--combined">
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                                </svg>
+                                <span class="history-table__status-text">Стоп-отгрузка</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">Требует предоплаты</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Оплачен</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">На сборке</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--eighth">
+                        <div class="history-table__docs">
+                            <svg class="s-icon s-icon--largest">
+                                <use xlink:href="img/svg/sprite1.svg#download"></use>
+                            </svg>
+                        </div>
+                        <ul class="history-table__dropdown">
+                            <li><a href="#" download>Скачать все</a></li>
+                            <li><a href="#" download>Накладная 1</a></li>
+                            <li><a href="#" download>Накладная 2</a></li>
+                            <li><a href="#" download>Накладная 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="history-table__item">
+                    <a href="history-view.html" class="history-table__link">
+                        <span class="visually-hidden">Перейти на страницу заказа</span>
+                    </a>
+                    <div class="history-table__col history-table__col--first">
+                        <div class="history-table__text">00140457900</div>
+                    </div>
+                    <div class="history-table__col history-table__col--second">
+                        <div class="history-table__text">25.08.2020, 10:30</div>
+                    </div>
+                    <div class="history-table__col history-table__col--third">
+                        <div class="history-table__text">
+                            ООО «Арт Проект»
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--fourth">
+                        <div class="history-table__text">13 008,00 <span class="currency">₸</span></div>
+                    </div>
+                    <div class="history-table__col history-table__col--combined">
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                                </svg>
+                                <span class="history-table__status-text">Стоп-отгрузка</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">Требует предоплаты</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Оплачен</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">На сборке</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--eighth">
+                        <div class="history-table__docs">
+                            <svg class="s-icon s-icon--largest">
+                                <use xlink:href="img/svg/sprite1.svg#download"></use>
+                            </svg>
+                        </div>
+                        <ul class="history-table__dropdown">
+                            <li><a href="#" download>Скачать все</a></li>
+                            <li><a href="#" download>Накладная 1</a></li>
+                            <li><a href="#" download>Накладная 2</a></li>
+                            <li><a href="#" download>Накладная 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="history-table__item">
+                    <a href="history-view.html" class="history-table__link">
+                        <span class="visually-hidden">Перейти на страницу заказа</span>
+                    </a>
+                    <div class="history-table__col history-table__col--first">
+                        <div class="history-table__text">00140457900</div>
+                    </div>
+                    <div class="history-table__col history-table__col--second">
+                        <div class="history-table__text">08.12.2020, 10:30</div>
+                    </div>
+                    <div class="history-table__col history-table__col--third">
+                        <div class="history-table__text">
+                            ООО «Арт Проект»
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--fourth">
+                        <div class="history-table__text">158 000,00 <span class="currency">₸</span></div>
+                    </div>
+                    <div class="history-table__col history-table__col--combined">
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                                </svg>
+                                <span class="history-table__status-text">Стоп-отгрузка</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">Требует предоплаты</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Оплачен</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">На сборке</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--eighth">
+                        <div class="history-table__docs">
+                            <svg class="s-icon s-icon--largest">
+                                <use xlink:href="img/svg/sprite1.svg#download"></use>
+                            </svg>
+                        </div>
+                        <ul class="history-table__dropdown">
+                            <li><a href="#" download>Скачать все</a></li>
+                            <li><a href="#" download>Накладная 1</a></li>
+                            <li><a href="#" download>Накладная 2</a></li>
+                            <li><a href="#" download>Накладная 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="history-table__item">
+                    <a href="history-view.html" class="history-table__link">
+                        <span class="visually-hidden">Перейти на страницу заказа</span>
+                    </a>
+                    <div class="history-table__col history-table__col--first">
+                        <div class="history-table__text">00140457895</div>
+                    </div>
+                    <div class="history-table__col history-table__col--second">
+                        <div class="history-table__text">08.12.2020, 10:30</div>
+                    </div>
+                    <div class="history-table__col history-table__col--third">
+                        <div class="history-table__text">
+                            ООО «Арт Проект»
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--fourth">
+                        <div class="history-table__text">158 000,00 <span class="currency">₸</span></div>
+                    </div>
+                    <div class="history-table__col history-table__col--combined">
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                                </svg>
+                                <span class="history-table__status-text">Стоп-отгрузка</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">Требует предоплаты</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Оплачен</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">На сборке</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--eighth">
+                        <div class="history-table__docs">
+                            <svg class="s-icon s-icon--largest">
+                                <use xlink:href="img/svg/sprite1.svg#download"></use>
+                            </svg>
+                        </div>
+                        <ul class="history-table__dropdown">
+                            <li><a href="#" download>Скачать все</a></li>
+                            <li><a href="#" download>Накладная 1</a></li>
+                            <li><a href="#" download>Накладная 2</a></li>
+                            <li><a href="#" download>Накладная 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="history-table__item">
+                    <a href="history-view.html" class="history-table__link">
+                        <span class="visually-hidden">Перейти на страницу заказа</span>
+                    </a>
+                    <div class="history-table__col history-table__col--first">
+                        <div class="history-table__text">00140457895</div>
+                    </div>
+                    <div class="history-table__col history-table__col--second">
+                        <div class="history-table__text">25.07.2020, 10:30</div>
+                    </div>
+                    <div class="history-table__col history-table__col--third">
+                        <div class="history-table__text">
+                            ООО «Арт Проект»
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--fourth">
+                        <div class="history-table__text">25 050,52 <span class="currency">₸</span></div>
+                    </div>
+                    <div class="history-table__col history-table__col--combined">
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                                </svg>
+                                <span class="history-table__status-text">Стоп-отгрузка</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">Требует предоплаты</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Оплачен</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">На сборке</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--eighth">
+                        <div class="history-table__docs">
+                            <svg class="s-icon s-icon--largest">
+                                <use xlink:href="img/svg/sprite1.svg#download"></use>
+                            </svg>
+                        </div>
+                        <ul class="history-table__dropdown">
+                            <li><a href="#" download>Скачать все</a></li>
+                            <li><a href="#" download>Накладная 1</a></li>
+                            <li><a href="#" download>Накладная 2</a></li>
+                            <li><a href="#" download>Накладная 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="history-table__item">
+                    <a href="history-view.html" class="history-table__link">
+                        <span class="visually-hidden">Перейти на страницу заказа</span>
+                    </a>
+                    <div class="history-table__col history-table__col--first">
+                        <div class="history-table__text">00140457895</div>
+                    </div>
+                    <div class="history-table__col history-table__col--second">
+                        <div class="history-table__text">12.06.2020, 10:30</div>
+                    </div>
+                    <div class="history-table__col history-table__col--third">
+                        <div class="history-table__text">
+                            ООО «Арт Проект»
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--fourth">
+                        <div class="history-table__text">25 050,52 <span class="currency">₸</span></div>
+                    </div>
+                    <div class="history-table__col history-table__col--combined">
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                                </svg>
+                                <span class="history-table__status-text">Стоп-отгрузка</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">Требует предоплаты</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">В обработке</span>
+                            </div>
+                        </div>
+                        <div class="history-table__row">
+                            <div class="history-table__text">АФ-018-20 от 01.02.2020</div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#done"></use>
+                                </svg>
+                                <span class="history-table__status-text">Оплачен</span>
+                            </div>
+                            <div class="history-table__status">
+                                <svg class="s-icon s-icon--md">
+                                    <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                                </svg>
+                                <span class="history-table__status-text">На сборке</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history-table__col history-table__col--eighth">
+                        <div class="history-table__docs">
+                            <svg class="s-icon s-icon--largest">
+                                <use xlink:href="img/svg/sprite1.svg#download"></use>
+                            </svg>
+                        </div>
+                        <ul class="history-table__dropdown">
+                            <li><a href="#" download>Скачать все</a></li>
+                            <li><a href="#" download>Накладная 1</a></li>
+                            <li><a href="#" download>Накладная 2</a></li>
+                            <li><a href="#" download>Накладная 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+            
+            <div class="pagination">
+    <div class="container">
+        <div class="pagination__inner">
+            <button class="pagination__btn pagination__btn--left" disabled>
+                <span class="visually-hidden">Предыдущая страница</span>
+                <svg class="s-icon s-icon--largest">
+                    <use xlink:href="img/svg/sprite1.svg#triangle-prev"></use>
+                </svg>
+            </button>
+
+            <ul class="pagination__list">
+                <li class="pagination__item pagination__item--active">
+                    <a class="pagination__link" href="#">1</a>
+                </li>
+                <li class="pagination__item">
+                    <a class="pagination__link" href="#">2</a>
+                </li>
+                <li class="pagination__item">
+                    <a class="pagination__link" href="#">3</a>
+                </li>
+                <li class="pagination__item">
+                    <a class="pagination__link" href="#">4</a>
+                </li>
+
+                <li class="pagination__item">
+                    <a class="pagination__link" href="#">5</a>
+                </li>
+                
+                
+            </ul>
+
+            <div class="pagination__more-wrap active">
+                <button class="pagination__more btn btn--primary btn--large">
+                    <span class="pagination__more-icon">
+                        <svg class="s-icon">
+                            <use xlink:href="img/svg/sprite1.svg#cart"></use>
+                        </svg>
+                        <span class="pagination__more-quantity">14</span>
+                    </span>
+                    22 152,00 ₸
+                </button>
+            </div>
+
+            <button class="pagination__btn pagination__btn--right">
+                <span class="visually-hidden">Следующая страница</span>
+                <svg class="s-icon s-icon--largest">
+                    <use xlink:href="img/svg/sprite1.svg#triangle-next"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+        </section>
+    </main>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__content">
+                <a class="footer__logo" href="#">
+                    <picture class="footer__image">
+                        <source srcset="img/logo.svg" media="(max-width: 992px)">
+                        <img src="img/login/logo-mirrored.svg" alt="Логотип">
+                    </picture>
+                </a>
+                <div class="footer__subtitle">
+                    ТОО «DSF Trading Co». Сервис заказа товаров.
+                </div>
+                <div class="descr-block">
+                    <img class="descr-block__img" src="img/footer/3pl.svg" alt="">
+                    <p class="descr-block__text">
+                        3PL оператор с командой профессионалов и богатым опытом в области торговой логистики.
+                    </p>
+                </div>
+            </div>
+            <div class="footer__block footer__block--first">
+                <div class="footer__title">Контакты</div>
+                <ul class="footer__list">
+                    <li class="contact-line footer__item">
+                        <a class="contact-line__link contact-line__link--mobile" href="tel:+77273565817">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon s-icon--xs">
+                                    <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </a>
+                        <span class="contact-line__link">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon s-icon--xs">
+                                    <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </span>
+                    </li>
+                    <li class="contact-line footer__item">
+                        <a class="contact-line__link contact-line__link--mobile" href="tel:+77273565817">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon s-icon--xs">
+                                    <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </a>
+                        <span class="contact-line__link">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon s-icon--xs">
+                                    <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </span>
+                    </li>
+                    <li class="contact-line footer__item">
+                        <a class="contact-line__link" href="https://wa.me/77273565817"  target="_blank" rel="noopener">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon">
+                                    <use xlink:href="img/svg/sprite1.svg#whatsapp"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </a>
+
+                    </li>
+                    <li class="contact-line footer__item">
+                        <a class="contact-line__link" href="http://t.me/ivan_dyadyura" target="_blank" rel="noopener">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon">
+                                    <use xlink:href="img/svg/sprite1.svg#telegram"></use>
+                                </svg>
+                            </span>
+                            @dsf.kz
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__block footer__block--second">
+                <div class="footer__title">Время работы</div>
+                <div class="footer__item">ПН-СБ с 9:00 до 17:00, ВС ‒ выходной</div>
+                <button class="footer__btn btn btn--small js-popup-btn" data-modal=".modal-form--main">обратная связь</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="footer__box">
+                <p>
+                    Информация на сайте не является публичной офертой. Указанные цены действуют только при оформлении
+                    заказа
+                    через сайт lk.dsf.kz
+                </p>
+                <p>
+                    Продолжая использовать наш сайт, вы соглашаетесь <a href="#">Политикой конфиденциальности</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+    <div class="modal-form modal-form--main" data-simplebar>
+    <div class="overlay"></div>
+    <form class="modal-form__box form" novalidate>
+        <button class="modal-form__close js-close" type="button">
+            <svg class="s-icon s-icon--largest">
+                <use xlink:href="img/svg/sprite1.svg#cancel"></use>
+            </svg>
+            <span class="visually-hidden">Закрыть модальное окно</span>
+        </button>
+        <div class="modal-form__title">Обратная связь</div>
+        <label class="field field--icon modal-form__field">
+            <span class="field__suptitle">Имя</span>
+            <input type="text" class="field__input" placeholder="Имя сотрудника" name="name" required>
+            <span class="field__icon" data-r-prompt="Обязательное поле">
+                <svg class="s-icon">
+                    <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                </svg>
+            </span>
+        </label>
+        <div class="modal-form__row">
+            <label class="field field--icon modal-form__field">
+                <span class="field__suptitle">E-mail</span>
+                <input type="email" class="field__input" placeholder="Ваш E-mail" name="name" required>
+                <span class="field__icon" data-r-prompt="Обязательное поле">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                    </svg>
+                </span>
+            </label>
+            <label class="field field--icon modal-form__field v-error">
+                <span class="field__suptitle">Телефон</span>
+                <input type="tel" class="field__input js-phone-mask" placeholder="+7 (___) ___-__-__" name="phone"
+                    required>
+                <span class="field__icon" data-r-prompt="Обязательное поле">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                    </svg>
+                </span>
+            </label>
+        </div>
+        <label class="field">
+            <span class="field__suptitle">Сообщение</span>
+            <textarea class="field__textarea" placeholder="Необязательно" name="message"></textarea>
+            <span class="form__error active">Неправильный номер телефона</span>
+        </label>
+        <button class="btn btn--primary btn--large modal-form__btn" type="submit">Отправить</button>
+    </form>
+</div>
+    
+    <script src="plugins/simplebar.js"></script>
+    <script src="plugins/inputmask.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

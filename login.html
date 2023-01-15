@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Автоматизация поставок">
+
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+    <div class="login" style="background-image: url(img/login/login-bg.jpg);">
+        <div class="container">
+            <div class="login__inner">
+                <a class="login__logo" href="#">
+                    <picture class="footer__image">
+                        <source srcset="img/logo.svg" media="(max-width: 992px)">
+                        <img src="img/login/logo-mirrored.svg" alt="Логотип">
+                    </picture>
+                </a>
+                <div class="login__content">
+                    <div class="login__left">
+
+                        <h1 class="login__title">
+                            Автоматизация
+                            поставок
+                        </h1>
+                        <p class="login__text">
+                            Служба поддержки клиентов
+                        </p>
+                        <ul class="login__list">
+                            <li class="contact-line login__item login__item--phone">
+                                <a class="contact-line__link contact-line__link--mobile" href="tel:+77273565817">
+                                    <span class="contact-line__icon">
+                                        <svg class="s-icon s-icon--xs">
+                                            <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                        </svg>
+                                    </span>
+                                    +7 727 356-58-17
+                                </a>
+                                <span class="contact-line__link">
+                                    <span class="contact-line__icon">
+                                        <svg class="s-icon s-icon--xs">
+                                            <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                        </svg>
+                                    </span>
+                                    +7 727 356-58-17
+                                </span>
+                            </li>
+                            <li class="contact-line login__item">
+                                <a class="contact-line__link" href="https://wa.me/77273565817" target="_blank"
+                                    rel="noopener">
+                                    <span class="contact-line__icon">
+                                        <svg class="s-icon">
+                                            <use xlink:href="img/svg/sprite1.svg#whatsapp"></use>
+                                        </svg>
+                                    </span>
+                                    +7 727 356-58-17
+                                </a>
+
+                            </li>
+                            <li class="contact-line login__item login__item--phone">
+                                <a class="contact-line__link contact-line__link--mobile" href="tel:+77273565817">
+                                    <span class="contact-line__icon">
+                                        <svg class="s-icon s-icon--xs">
+                                            <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                        </svg>
+                                    </span>
+                                    +7 727 356-58-17
+                                </a>
+                                <span class="contact-line__link">
+                                    <span class="contact-line__icon">
+                                        <svg class="s-icon s-icon--xs">
+                                            <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                        </svg>
+                                    </span>
+                                    +7 727 356-58-17
+                                </span>
+                            </li>
+                            <li class="contact-line login__item">
+                                <a class="contact-line__link" href="http://t.me/ivan_dyadyura" target="_blank"
+                                    rel="noopener">
+                                    <span class="contact-line__icon">
+                                        <svg class="s-icon">
+                                            <use xlink:href="img/svg/sprite1.svg#telegram"></use>
+                                        </svg>
+                                    </span>
+                                    @dsf.kz
+                                </a>
+                            </li>
+                            <li class="contact-line login__item">
+                                <a class="contact-line__link contact-line__link--mobile" href="mailto:zakaz@dsf.kz"
+                                    target="_blank" rel="noopener">
+                                    <span class="contact-line__icon">
+                                        <svg class="s-icon">
+                                            <use xlink:href="img/svg/sprite1.svg#email"></use>
+                                        </svg>
+                                    </span>
+                                    zakaz@dsf.kz
+                                </a>
+                                <span class="contact-line__link" rel="noopener">
+                                    <span class="contact-line__icon">
+                                        <svg class="s-icon">
+                                            <use xlink:href="img/svg/sprite1.svg#email"></use>
+                                        </svg>
+                                    </span>
+                                    zakaz@dsf.kz
+                                </span>
+                            </li>
+                        </ul>
+
+                        <div class="descr-block login__descr">
+                            <img class="descr-block__img" src="img/footer/3pl.svg" alt="">
+                            <p class="descr-block__text">
+                                Мы способствуем развитию бизнеса наших клиентов, внедряя наиболее передовые и
+                                эффективные решения в области логистики.
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="login__right">
+                        <div class="login__form-title">
+                            Авторизация
+                        </div>
+
+                        <form class="login__form form" action="handler.php" novalidate>
+                            <label class="field field--icon field--dark login__field v-error">
+                                <span class="visually-hidden">Введите логин</span>
+                                <input class="field__input" type="text" placeholder="Логин" required>
+                                <span class="field__icon" data-r-prompt="Обязательное поле">
+                                    <svg class="s-icon">
+                                        <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                                    </svg>
+                                </span>
+                            </label>
+                            <label class="field field--dark login__field">
+                                <span class="visually-hidden">Введите пароль</span>
+                                <input class="field__input" type="password" placeholder="Пароль" required>
+                                <span class="form__error active">Неверный логин или пароль</span>
+                            </label>
+
+                            <div class="login__row">
+                                <button class="btn btn--primary-light btn--large login__submit">Войти</button>
+                                <a class="login__form-link" href="#">Забыли пароль?</a>
+                            </div>
+                        </form>
+
+                        <div class="login__copy">
+                            <div class="login__copy-text">Политика конфиденциальности</div>
+                            <div class="login__signature">©2020, «DSF Trading Co»</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="plugins/simplebar.js"></script>
+    <script src="plugins/inputmask.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Страницы проекта</title>
+</head>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+
+  a:hover {
+    color: royalblue;
+  }
+</style>
+
+<body style="background-color: #f2f2f2">
+  <div class="container">
+    <h1>Все страницы сайта</h1>
+
+    <ol>
+      <li><a href="cart-file.html">Корзина импорт</a></li>
+      <li><a href="cart-order.html">Созданный заказ</a></li>
+      <li><a href="cart.html">Корзина</a></li>
+      <li><a href="history.html">История заказов</a></li>
+      <li><a href="history-view.html">История заказов просмотр</a></li>
+      <li><a href="index.html">Каталог</a></li>
+      <li><a href="login.html">Страница регистрации</a></li>
+      <li><a href="recovery-password.html">Восстановление пароля</a></li>
+    </ol>
+  </div>
+</body>
+
+</html>

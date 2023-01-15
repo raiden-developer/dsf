@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Каталог товаров на сайте DSF">
+
+    <title>Каталог</title>
+    <link rel="stylesheet" href="css/simplebar.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <noscript>
+        <style>
+            /**
+          * Reinstate scrolling for non-JS clients
+          */
+            .simplebar-content-wrapper {
+                overflow: auto;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body>
+    
+    
+    
+<header class="header">
+    <div class="container">
+        <nav class="header__nav">
+            <div class="header__menu">
+                <a class="header__logo" href="#">
+                    <img class="header__image" src="img/logo.svg" alt="Логотип">
+                </a>
+                <ul class="header__list">
+                    <li class="header__item header__item--active">
+                        <a class="header__link" href="#">Каталог</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">История заказов</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">План заказов</a>
+                    </li>
+                    <li class="header__item header__item--mobile">
+                        <a class="header__link" href="#">Профиль</a>
+                    </li>
+                </ul>
+                <button class="header__menu-close hamburger hamburger--spring">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                    <span class="visually-hidden">Закрыть меню</span>
+                </button>
+            </div>
+            <h1>Каталог</h1>
+            <button class="header__mobile-btn header__mobile-btn--search">
+                <svg class="s-icon">
+                    <use xlink:href="img/svg/sprite1.svg#magnifier"></use>
+                </svg>
+                <span class="visually-hidden">Вызвать поле поиска</span>
+            </button>
+            
+            <label class="header__mobile-btn k-file">
+                <input class="k-file__input" type="file">
+                <svg class="s-icon">
+                    <use xlink:href="img/svg/sprite1.svg#import"></use>
+                </svg>
+                <span class="visually-hidden">Импортировать файл с товарами</span>
+            </label>
+            
+            <a class="header__navblock" href="#">
+                <div class="header__icon">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#cart"></use>
+                    </svg>
+                </div>
+                <div class="header__info">
+                    <div class="header__top">352 245,59 ₸</div>
+                    <div class="header__text"><span>10</span> тов.</div>
+                </div>
+            </a>
+            <div class="header__navblock header__navblock--profile">
+                <div class="header__icon">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#user"></use>
+                    </svg>
+                </div>
+                <div class="header__info">
+                    <span class="header__top">Т. Бекмамбетов</span>
+                    <div class="header__text">
+                        АЗС №34, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                    </div>
+                </div>
+                <div class="header__dropdown">
+                    <div class="header__top header__top--dark">Тимур Бекмамбетов</div>
+                    <p class="header__descr">
+                        Товарищество с ограниченной ответственностью \"Alshaya Kazakhstan\" (Алшая Ка
+                    </p>
+                    <a class="header__btn btn btn--secondary btn--small" href="#">Сменить пароль</a>
+                    <a class="header__btn header__btn--exit btn btn--secondary btn--small" href="#"
+                        data-da="header__menu,0,991">Выйти</a>
+                </div>
+            </div>
+            <div class="search-block search-block--dark header__search">
+                <form class="search-block__form" action="search.php" method="POST">
+                    <label class="search-block__label">
+                        <span class="visually-hidden">Наименование или штрих-код</span>
+                        <input class="search-block__input" type="search"
+                            placeholder="Наименование или штрих-код">
+                    </label>
+                    <button class="search-block__icon" type="button">
+                        <span class="visually-hidden">Искать</span>
+                        <svg class="s-icon s-icon--large">
+                            <use xlink:href="img/svg/sprite1.svg#cancel"></use>
+                        </svg>
+                    </button>
+                </form>
+                <!-- Список с результатми поиска, для показа добавить класс active -->
+                <ul class="search-block__result">
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__title">
+                                АЗС №24, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                            </div>
+                            <p class="search-block__text">
+                                Актюбинская обл., Мугалжарский район, город районного значения
+                                Кандыгаш, трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </p>
+                        </a>
+                    </li>
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__title">
+                                АЗС №20, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                            </div>
+                            <p class="search-block__text">
+                                Кандыгаш, трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </p>
+                        </a>
+                    </li>
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__text">
+                                Актюбинская обл., Мугалжарский район, город районного значения Кандыгаш,
+                                трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Класс немноного другой если не найдено ничего -->
+                    <!-- <li class="search-block__none">Ничего не найдено...</li> -->
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <main class="main">
+        <div class="popup-notification active">
+    <span class="popup-notification__icon">
+        <svg class="s-icon">
+            <use xlink:href="img/svg/sprite1.svg#cart"></use>
+        </svg>
+    </span>
+    <p class="popup-notification__text">
+        Товар добавлен в корзину
+    </p>
+</div>
+        <section>
+            
+            
+            
+            
+            <div class="page-header ">
+    <div class="container">
+        <div class="page-header__inner">
+            <div class="page-header__left">
+                <h1>Каталог</h1>
+                
+                <div class="page-header__quantity">2548</div>
+                
+            </div>
+
+            
+            <div class="search-block page-header__right">
+                <form class="search-block__form" action="search.php" method="POST">
+                    <label class="search-block__label">
+                        <span class="visually-hidden">Поиск по наименованию или штрих-коду</span>
+                        <input class="search-block__input" type="search"
+                            placeholder="Поиск по наименованию или штрих-коду">
+                    </label>
+                    <button class="search-block__icon">
+                        <span class="visually-hidden">Искать</span>
+                        <svg class="s-icon s-icon--large">
+                            <use xlink:href="img/svg/sprite1.svg#search"></use>
+                        </svg>
+                    </button>
+                </form>
+                <!-- Список с результатми поиска, для показа добавить класс active -->
+                <ul class="search-block__result">
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__title">
+                                АЗС №24, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                            </div>
+                            <p class="search-block__text">
+                                Актюбинская обл., Мугалжарский район, город районного значения
+                                Кандыгаш, трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </p>
+                        </a>
+                    </li>
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__title">
+                                АЗС №20, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                            </div>
+                            <p class="search-block__text">
+                                Кандыгаш, трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </p>
+                        </a>
+                    </li>
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__text">
+                                Актюбинская обл., Мугалжарский район, город районного значения Кандыгаш,
+                                трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Класс немноного другой если не найдено ничего -->
+                    <!-- <li class="search-block__none">Ничего не найдено...</li> -->
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+            <div class="filters">
+    <div class="container">
+        <div class="filters__inner">
+            <div class="filters__box" data-simplebar>
+                <ul class="filters__list">
+                    <li class="filters__item">
+                        <label class="k-checkbox" style="--bg: #E7EDFD; --color: #2B5CD6;">
+                            <input class="k-checkbox__input" type="checkbox">
+                            <span class="k-checkbox__box btn">
+                                <span class="k-checkbox__icon">
+                                    <svg class="s-icon">
+                                        <use xlink:href="img/svg/filters.svg#non-food"></use>
+                                    </svg>
+                                </span>
+                                <span>Non-food</span>
+                            </span>
+                        </label>
+                    </li>
+                    <li class="filters__item">
+                        <label class="k-checkbox" style="--bg: #E7EDFD; --color: #2B5CD6;">
+                            <input class="k-checkbox__input" type="checkbox">
+                            <span class="k-checkbox__box btn">
+                                <span class="k-checkbox__icon">
+                                    <svg class="s-icon">
+                                        <use xlink:href="img/svg/filters.svg#food"></use>
+                                    </svg>
+                                </span>
+                                <span>Food</span>
+                            </span>
+                        </label>
+                    </li>
+                    <li class="filters__item">
+                        <label class="k-checkbox" style="--bg: #E7EDFD; --color: #2B5CD6;">
+                            <input class="k-checkbox__input" type="checkbox">
+                            <span class="k-checkbox__box btn">
+                                <span class="k-checkbox__icon">
+                                    <svg class="s-icon">
+                                        <use xlink:href="img/svg/filters.svg#cafe"></use>
+                                    </svg>
+                                </span>
+                                <span>Зона кафе</span>
+                            </span>
+                        </label>
+                    </li>
+                </ul>
+    
+                <ul class="filters__list">
+                    <li class="filters__item">
+                        <label class="k-checkbox" style="--bg: #F6E2F6; --color: #AA33AD;">
+                            <input class="k-checkbox__input" type="checkbox">
+                            <span class="k-checkbox__box btn">
+                                <span class="k-checkbox__icon">
+                                    <svg class="s-icon">
+                                        <use xlink:href="img/svg/filters.svg#hit"></use>
+                                    </svg>
+                                </span>
+                                <span>Хиты продаж</span>
+                            </span>
+                        </label>
+                    </li>
+                    <li class="filters__item">
+                        <label class="k-checkbox" style="--bg: #FFE1E1; --color: #D72900
+                        ;">
+                            <input class="k-checkbox__input" type="checkbox">
+                            <span class="k-checkbox__box btn">
+                                <span class="k-checkbox__icon">
+                                    <svg class="s-icon">
+                                        <use xlink:href="img/svg/filters.svg#sale"></use>
+                                    </svg>
+                                </span>
+                                <span>Акции</span>
+                            </span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="filters__btn">
+                <button class="btn btn--secondary btn--icon">
+                    <span class="btn__icon">
+                        <svg class="s-icon">
+                            <use xlink:href="img/svg/sprite1.svg#upload"></use>
+                        </svg>
+                    </span>
+                    <span class="btn__text">
+                        Импорт из файла
+                    </span>
+                </button>
+            </div>
+            <div class="popup-upload">
+    <p class="popup-upload__text">
+        Для добавления товаров в корзину списком Excel
+        <a href="#" download="">скачайте шаблон</a>, заполните количество и загрузить его
+    </p>
+    <div class="popup-upload__row">
+        <label class="k-file popup-upload__btn">
+            <input class="k-file__input" type="file">
+            <span class="k-file__box btn btn--primary">
+                <span class="k-file__icon">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#upload"></use>
+                    </svg>
+                </span>
+                <span> Загрузить файл</span>
+            </span>
+        </label>
+        <span class="popup-upload__extensions">.xls, .xlsx</span>
+    </div>
+
+
+    <div class="message-info popup-upload__info">
+        <svg class="s-icon message-info__icon">
+            <use xlink:href="img/svg/sprite1.svg#info"></use>
+        </svg>
+        <p class="message-info__text">
+            При заполнении шаблона не добавляйте новых столбцов в документ, а также не изменяйте заголовок у шапки
+            таблицы.
+        </p>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+
+            
+<div class="catalog">
+    <div class="container">
+        <div class="catalog__inner">
+            <div class="table catalog__table">
+                <div class="table__head">
+                    <div class="table__th table__th--first">Наименование / Штрих-код</div>
+                    <div class="table__th table__th--second">Цена за штуку</div>
+                    <div class="table__th table__th--fourth">Количество</div>
+                </div>
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Губка для приборной панели Супер Блеск SAPFIRE
+                                    
+                                    <span class="table__category" data-r-prompt="Самый покупаемый">
+                                        <svg class="s-icon">
+                                            <use xlink:href="img/svg/filters.svg#hit"></use>
+                                        </svg>
+                                    </span>
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second active">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                3 000,52 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">без НДС</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                3 000,52 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">10 шт.</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            
+                            <div class="table__quantity">
+                                <input class="table__quantity-field" type="number" min="0" max="999" placeholder="0">
+                            </div>
+                            
+                            
+                            <div class="table__select">
+                                <div class="select">
+                                    <div class="select__header">
+                                        <div class="select__content" tabindex="0">
+
+                                        </div>
+                                        <svg class="s-icon select__icon">
+                                            <use xlink:href="img/svg/sprite1.svg#arrow-bottom"></use>
+                                        </svg>
+                                    </div>
+                                    <ul class="select__list" data-simplebar>
+                                        <li class="select__item active" data-select-value="kg" tabindex="0">
+                                            <span class="table__box-text">кг.</span>
+                                        </li>
+                                        <li class="select__item active" data-select-value="st" tabindex="0">
+                                            <span class="table__box-text">уп.</span>
+                                        </li>
+                                    </ul>
+                                    <select class="select__data" name="product-type1">
+                                        <option value="kg">кг.</option>
+                                        <option value="st">уп.</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <button class="table__basket-add added" data-r-prompt="Добавлено в корзину">
+                        <span class="visually-hidden">Добавлено в корзину</span>
+                        <svg class="s-icon s-icon--big">
+                            <use xlink:href="img/svg/sprite1.svg#cart_add"></use>
+                        </svg>
+                    </button>
+                    
+                </div>
+
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Шторка солнцезащитная СТМ
+                                    
+                                    <span class="table__category" data-r-prompt="Спецпредложение">
+                                        <svg class="s-icon">
+                                            <use xlink:href="img/svg/filters.svg#sale"></use>
+                                        </svg>
+                                    </span>
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second active">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                2 300,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">в т. ч. НДС • уп. 300 шт.</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                12 300,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">10 шт.</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            
+                            <span class="table__quantity-error" data-prompt="Вы указали слишком большое значение">
+                                <svg class="s-icon">
+                                    <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                                </svg>
+                            </span>
+                            <div class="table__quantity table__quantity--error">
+                                <input class="table__quantity-field" type="number" min="0" max="999" placeholder="0">
+                            </div>
+                            
+                            
+                            <div class="table__select">
+                                <div class="select">
+                                    <div class="select__header">
+                                        <div class="select__content" tabindex="0">
+
+                                        </div>
+                                        <svg class="s-icon select__icon">
+                                            <use xlink:href="img/svg/sprite1.svg#arrow-bottom"></use>
+                                        </svg>
+                                    </div>
+                                    <ul class="select__list" data-simplebar>
+                                        <li class="select__item active" data-select-value="kg" tabindex="0">
+                                            <span class="table__box-text">кг.</span>
+                                        </li>
+                                        <li class="select__item active" data-select-value="st" tabindex="0">
+                                            <span class="table__box-text">уп.</span>
+                                        </li>
+                                    </ul>
+                                    <select class="select__data" name="product-type2">
+                                        <option value="kg">кг.</option>
+                                        <option value="st">уп.</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <button class="table__basket-add" data-r-prompt="Добавить в корзину">
+                        <span class="visually-hidden">Добавить в корзину</span>
+                        <svg class="s-icon s-icon--big">
+                            <use xlink:href="img/svg/sprite1.svg#cart_add"></use>
+                        </svg>
+                    </button>
+                    
+                </div>
+
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Губка для приборной панели Супер Блеск SAPFIRE
+                                    
+                                    <span class="table__category" data-r-prompt="Самый покупаемый">
+                                        <svg class="s-icon">
+                                            <use xlink:href="img/svg/filters.svg#hit"></use>
+                                        </svg>
+                                    </span>
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second active">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                300,52 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">без НДС</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                3 000,52 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">10 шт.</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            
+                            <div class="table__quantity">
+                                <input class="table__quantity-field" type="number" min="0" max="999" placeholder="0">
+                            </div>
+                            
+                            
+                            <div class="table__select">
+                                <div class="select">
+                                    <div class="select__header">
+                                        <div class="select__content" tabindex="0">
+
+                                        </div>
+                                        <svg class="s-icon select__icon">
+                                            <use xlink:href="img/svg/sprite1.svg#arrow-bottom"></use>
+                                        </svg>
+                                    </div>
+                                    <ul class="select__list" data-simplebar>
+                                        <li class="select__item active" data-select-value="kg" tabindex="0">
+                                            <span class="table__box-text">кг.</span>
+                                        </li>
+                                        <li class="select__item active" data-select-value="st" tabindex="0">
+                                            <span class="table__box-text">уп.</span>
+                                        </li>
+                                    </ul>
+                                    <select class="select__data" name="product-type3">
+                                        <option value="kg">кг.</option>
+                                        <option value="st">уп.</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="other-goods active">
+    <div class="message-info other-goods__info">
+        <span class="message-info__icon">
+            <svg class="s-icon">
+                <use xlink:href="img/svg/sprite1.svg#warning"></use>
+            </svg>
+        </span>
+        <p class="message-info__text">
+            Товар <strong>«Трос буксировочный с крюками для автомобилей массой до 3500 кг STS-1731»</strong> закончился,
+            вы можете заказать аналоги
+        </p>
+    </div>
+    <div class="other-goods__table">
+        <ul class="other-goods__header">
+            <li class="other-goods__th other-goods__th--first">Наименование / Штрих-код</li>
+            <li class="other-goods__th other-goods__th--second">Цена за упаковку</li>
+            <li class="other-goods__th other-goods__th--third">Количество</li>
+        </ul>
+        <ul class="other-goods__body">
+            <li class="other-goods__product">
+                <div class="other-goods__col other-goods__col--first">
+                    <div class="other-goods__name">Трос буксировочный с крюками для автомобилей массой до 2500 кг</div>
+                    <div class="other-goods__signature">48645186464561</div>
+                </div>
+                <div class="other-goods__col other-goods__col--second">
+                    <div class="other-goods__name">2 000,52 <span class="currency">₸</span></div>
+                    <div class="other-goods__signature">10 шт.</div>
+                </div>
+                <div class="other-goods__col other-goods__col--third">
+                    <div class="other-goods__quantity">
+                        <span class="other-goods__controller other-goods__controller--reduce">
+                            Уменьшить количество
+                            товаров
+                        </span>
+                        <input class="other-goods__quantity-field" type="number" min="0" max="999" placeholder="0">
+                        <span class="other-goods__controller other-goods__controller--add">Добавить количество
+                            товаров</span>
+                    </div>
+                </div>
+            </li>
+            <li class="other-goods__product">
+                <div class="other-goods__col other-goods__col--first">
+                    <div class="other-goods__name">Трос буксировочный с крюками для автомобилей массой до 2500 кг</div>
+                    <div class="other-goods__signature">48645186464561</div>
+                </div>
+                <div class="other-goods__col other-goods__col--second">
+                    <div class="other-goods__name">2 000,52 <span class="currency">₸</span></div>
+                    <div class="other-goods__signature">10 шт.</div>
+                </div>
+                <div class="other-goods__col other-goods__col--third">
+                    <div class="other-goods__quantity">
+                        <span class="other-goods__controller other-goods__controller--reduce">
+                            Уменьшить количество
+                            товаров
+                        </span>
+                        <input class="other-goods__quantity-field" type="number" min="0" max="999" placeholder="0">
+                        <span class="other-goods__controller other-goods__controller--add">Добавить количество
+                            товаров</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="other-goods__footer">
+            <button class="btn btn--primary other-goods__btn">Добавить в корзину</button>
+        </div>
+    </div>
+</div>
+                    
+                    
+                    <button class="table__basket-add" data-r-prompt="Добавить в корзину">
+                        <span class="visually-hidden">Добавить в корзину</span>
+                        <svg class="s-icon s-icon--big">
+                            <use xlink:href="img/svg/sprite1.svg#cart_add"></use>
+                        </svg>
+                    </button>
+                    
+                </div>
+
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Губка для приборной панели Супер Блеск SAPFIRE
+                                    
+                                    <span class="table__category" data-r-prompt="Самый покупаемый">
+                                        <svg class="s-icon">
+                                            <use xlink:href="img/svg/filters.svg#hit"></use>
+                                        </svg>
+                                    </span>
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second active">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                300,52 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">без НДС</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                3 000,52 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">10 шт.</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            
+                            <div class="table__quantity">
+                                <input class="table__quantity-field" type="number" min="0" max="999" placeholder="0">
+                            </div>
+                            
+                            
+                            <div class="table__select">
+                                <div class="select">
+                                    <div class="select__header">
+                                        <div class="select__content" tabindex="0">
+
+                                        </div>
+                                    </div>
+                                    <ul class="select__list" data-simplebar>
+                                        <li class="select__item active" data-select-value="st" tabindex="0">
+                                            <span class="table__box-text">уп.</span>
+                                        </li>
+                                    </ul>
+                                    <select class="select__data" name="product-type4">
+                                        <option value="st">уп.</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <button class="table__basket-add" data-r-prompt="Добавить в корзину">
+                        <span class="visually-hidden">Добавить в корзину</span>
+                        <svg class="s-icon s-icon--big">
+                            <use xlink:href="img/svg/sprite1.svg#cart_add"></use>
+                        </svg>
+                    </button>
+                    
+                </div>
+
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Шторка солнцезащитная СТМ
+                                    
+                                    <span class="table__category" data-r-prompt="Спецпредложение">
+                                        <svg class="s-icon">
+                                            <use xlink:href="img/svg/filters.svg#sale"></use>
+                                        </svg>
+                                    </span>
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second active">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                2 300,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">в т. ч. НДС</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                12 300,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">10 шт.</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            
+                            <div class="table__quantity">
+                                <input class="table__quantity-field" type="number" min="0" max="999" placeholder="0">
+                            </div>
+                            
+                            
+                            <div class="table__select">
+                                <div class="select">
+                                    <div class="select__header">
+                                        <div class="select__content" tabindex="0">
+
+                                        </div>
+                                        <svg class="s-icon select__icon">
+                                            <use xlink:href="img/svg/sprite1.svg#arrow-bottom"></use>
+                                        </svg>
+                                    </div>
+                                    <ul class="select__list" data-simplebar>
+                                        <li class="select__item active" data-select-value="kg" tabindex="0">
+                                            <span class="table__box-text">кг.</span>
+                                        </li>
+                                        <li class="select__item active" data-select-value="st" tabindex="0">
+                                            <span class="table__box-text">уп.</span>
+                                        </li>
+                                    </ul>
+                                    <select class="select__data" name="product-type5">
+                                        <option value="kg">кг.</option>
+                                        <option value="st">уп.</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <button class="table__basket-add" data-r-prompt="Добавить в корзину">
+                        <span class="visually-hidden">Добавить в корзину</span>
+                        <svg class="s-icon s-icon--big">
+                            <use xlink:href="img/svg/sprite1.svg#cart_add"></use>
+                        </svg>
+                    </button>
+                    
+                </div>
+
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Шторка солнцезащитная СТМ
+                                    
+                                    <span class="table__category" data-r-prompt="Спецпредложение">
+                                        <svg class="s-icon">
+                                            <use xlink:href="img/svg/filters.svg#sale"></use>
+                                        </svg>
+                                    </span>
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second active">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                2 300,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">в т. ч. НДС</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                12 300,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">10 шт.</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            
+                            <div class="table__quantity">
+                                <input class="table__quantity-field" type="number" min="0" max="999" placeholder="0">
+                            </div>
+                            
+                            
+                            <div class="table__select">
+                                <div class="select">
+                                    <div class="select__header">
+                                        <div class="select__content" tabindex="0">
+
+                                        </div>
+                                        <svg class="s-icon select__icon">
+                                            <use xlink:href="img/svg/sprite1.svg#arrow-bottom"></use>
+                                        </svg>
+                                    </div>
+                                    <ul class="select__list" data-simplebar>
+                                        <li class="select__item active" data-select-value="kg" tabindex="0">
+                                            <span class="table__box-text">кг.</span>
+                                        </li>
+                                        <li class="select__item active" data-select-value="st" tabindex="0">
+                                            <span class="table__box-text">уп.</span>
+                                        </li>
+                                    </ul>
+                                    <select class="select__data" name="product-type6">
+                                        <option value="kg">кг.</option>
+                                        <option value="st">уп.</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <button class="table__basket-add" data-r-prompt="Добавить в корзину">
+                        <span class="visually-hidden">Добавить в корзину</span>
+                        <svg class="s-icon s-icon--big">
+                            <use xlink:href="img/svg/sprite1.svg#cart_add"></use>
+                        </svg>
+                    </button>
+                    
+                </div>
+
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Шторка солнцезащитная СТМ
+                                    
+                                    <span class="table__category" data-r-prompt="Спецпредложение">
+                                        <svg class="s-icon">
+                                            <use xlink:href="img/svg/filters.svg#sale"></use>
+                                        </svg>
+                                    </span>
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second active">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                2 300,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">в т. ч. НДС</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                12 300,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">10 шт.</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            
+                            <div class="table__quantity">
+                                <input class="table__quantity-field" type="number" min="0" max="999" placeholder="0">
+                            </div>
+                            
+                            
+                            <div class="table__select">
+                                <div class="select">
+                                    <div class="select__header">
+                                        <div class="select__content" tabindex="0">
+
+                                        </div>
+                                        <svg class="s-icon select__icon">
+                                            <use xlink:href="img/svg/sprite1.svg#arrow-bottom"></use>
+                                        </svg>
+                                    </div>
+                                    <ul class="select__list" data-simplebar>
+                                        <li class="select__item active" data-select-value="kg" tabindex="0">
+                                            <span class="table__box-text">кг.</span>
+                                        </li>
+                                        <li class="select__item active" data-select-value="st" tabindex="0">
+                                            <span class="table__box-text">уп.</span>
+                                        </li>
+                                    </ul>
+                                    <select class="select__data" name="product-type7">
+                                        <option value="kg">кг.</option>
+                                        <option value="st">уп.</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <button class="table__basket-add" data-r-prompt="Добавить в корзину">
+                        <span class="visually-hidden">Добавить в корзину</span>
+                        <svg class="s-icon s-icon--big">
+                            <use xlink:href="img/svg/sprite1.svg#cart_add"></use>
+                        </svg>
+                    </button>
+                    
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            <div class="pagination">
+    <div class="container">
+        <div class="pagination__inner">
+            <button class="pagination__btn pagination__btn--left" disabled>
+                <span class="visually-hidden">Предыдущая страница</span>
+                <svg class="s-icon s-icon--largest">
+                    <use xlink:href="img/svg/sprite1.svg#triangle-prev"></use>
+                </svg>
+            </button>
+
+            <ul class="pagination__list">
+                <li class="pagination__item pagination__item--active">
+                    <a class="pagination__link" href="#">1</a>
+                </li>
+                <li class="pagination__item">
+                    <a class="pagination__link" href="#">2</a>
+                </li>
+                <li class="pagination__item">
+                    <a class="pagination__link" href="#">3</a>
+                </li>
+                <li class="pagination__item">
+                    <a class="pagination__link" href="#">4</a>
+                </li>
+
+                <li class="pagination__item">
+                    <a class="pagination__link" href="#">5</a>
+                </li>
+                
+                <li class="pagination__item">
+                    <span class="pagination__dots">...</span>
+                </li>
+                <li class="pagination__item">
+                    <a class="pagination__link" href="#">10</a>
+                </li>
+                
+            </ul>
+
+            <div class="pagination__more-wrap active">
+                <button class="pagination__more btn btn--primary btn--large">
+                    <span class="pagination__more-icon">
+                        <svg class="s-icon">
+                            <use xlink:href="img/svg/sprite1.svg#cart"></use>
+                        </svg>
+                        <span class="pagination__more-quantity">14</span>
+                    </span>
+                    22 152,00 ₸
+                </button>
+            </div>
+
+            <button class="pagination__btn pagination__btn--right">
+                <span class="visually-hidden">Следующая страница</span>
+                <svg class="s-icon s-icon--largest">
+                    <use xlink:href="img/svg/sprite1.svg#triangle-next"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+        </section>
+
+        <div class="page-message">
+    <div class="container">
+        <div class="page-message__inner">
+            Этот сайт использует файл cookie. Продолжая вы даёте согласие на их использование. <a href="#">Узнать больше.</a>
+        </div>
+    </div>
+    <button class="page-message__close">
+        <svg class="s-icon s-icon--largest">
+            <use xlink:href="img/svg/sprite1.svg#cancel"></use>
+        </svg>
+        <span class="visually-hidden">Закрыть сообщение</span>
+    </button>
+</div>
+    </main>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__content">
+                <a class="footer__logo" href="#">
+                    <picture class="footer__image">
+                        <source srcset="img/logo.svg" media="(max-width: 992px)">
+                        <img src="img/login/logo-mirrored.svg" alt="Логотип">
+                    </picture>
+                </a>
+                <div class="footer__subtitle">
+                    ТОО «DSF Trading Co». Сервис заказа товаров.
+                </div>
+                <div class="descr-block">
+                    <img class="descr-block__img" src="img/footer/3pl.svg" alt="">
+                    <p class="descr-block__text">
+                        3PL оператор с командой профессионалов и богатым опытом в области торговой логистики.
+                    </p>
+                </div>
+            </div>
+            <div class="footer__block footer__block--first">
+                <div class="footer__title">Контакты</div>
+                <ul class="footer__list">
+                    <li class="contact-line footer__item">
+                        <a class="contact-line__link contact-line__link--mobile" href="tel:+77273565817">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon s-icon--xs">
+                                    <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </a>
+                        <span class="contact-line__link">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon s-icon--xs">
+                                    <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </span>
+                    </li>
+                    <li class="contact-line footer__item">
+                        <a class="contact-line__link contact-line__link--mobile" href="tel:+77273565817">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon s-icon--xs">
+                                    <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </a>
+                        <span class="contact-line__link">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon s-icon--xs">
+                                    <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </span>
+                    </li>
+                    <li class="contact-line footer__item">
+                        <a class="contact-line__link" href="https://wa.me/77273565817"  target="_blank" rel="noopener">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon">
+                                    <use xlink:href="img/svg/sprite1.svg#whatsapp"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </a>
+
+                    </li>
+                    <li class="contact-line footer__item">
+                        <a class="contact-line__link" href="http://t.me/ivan_dyadyura" target="_blank" rel="noopener">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon">
+                                    <use xlink:href="img/svg/sprite1.svg#telegram"></use>
+                                </svg>
+                            </span>
+                            @dsf.kz
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__block footer__block--second">
+                <div class="footer__title">Время работы</div>
+                <div class="footer__item">ПН-СБ с 9:00 до 17:00, ВС ‒ выходной</div>
+                <button class="footer__btn btn btn--small js-popup-btn" data-modal=".modal-form--main">обратная связь</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="footer__box">
+                <p>
+                    Информация на сайте не является публичной офертой. Указанные цены действуют только при оформлении
+                    заказа
+                    через сайт lk.dsf.kz
+                </p>
+                <p>
+                    Продолжая использовать наш сайт, вы соглашаетесь <a href="#">Политикой конфиденциальности</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <div class="modal-form modal-form--main" data-simplebar>
+    <div class="overlay"></div>
+    <form class="modal-form__box form" novalidate>
+        <button class="modal-form__close js-close" type="button">
+            <svg class="s-icon s-icon--largest">
+                <use xlink:href="img/svg/sprite1.svg#cancel"></use>
+            </svg>
+            <span class="visually-hidden">Закрыть модальное окно</span>
+        </button>
+        <div class="modal-form__title">Обратная связь</div>
+        <label class="field field--icon modal-form__field">
+            <span class="field__suptitle">Имя</span>
+            <input type="text" class="field__input" placeholder="Имя сотрудника" name="name" required>
+            <span class="field__icon" data-r-prompt="Обязательное поле">
+                <svg class="s-icon">
+                    <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                </svg>
+            </span>
+        </label>
+        <div class="modal-form__row">
+            <label class="field field--icon modal-form__field">
+                <span class="field__suptitle">E-mail</span>
+                <input type="email" class="field__input" placeholder="Ваш E-mail" name="name" required>
+                <span class="field__icon" data-r-prompt="Обязательное поле">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                    </svg>
+                </span>
+            </label>
+            <label class="field field--icon modal-form__field v-error">
+                <span class="field__suptitle">Телефон</span>
+                <input type="tel" class="field__input js-phone-mask" placeholder="+7 (___) ___-__-__" name="phone"
+                    required>
+                <span class="field__icon" data-r-prompt="Обязательное поле">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                    </svg>
+                </span>
+            </label>
+        </div>
+        <label class="field">
+            <span class="field__suptitle">Сообщение</span>
+            <textarea class="field__textarea" placeholder="Необязательно" name="message"></textarea>
+            <span class="form__error active">Неправильный номер телефона</span>
+        </label>
+        <button class="btn btn--primary btn--large modal-form__btn" type="submit">Отправить</button>
+    </form>
+</div>
+    
+    <script src="plugins/simplebar.js"></script>
+    <script src="plugins/inputmask.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

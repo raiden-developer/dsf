@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Каталог товаров на сайте DSF">
+
+    <title>Заказ №00140457902</title>
+    <link rel="stylesheet" href="css/simplebar.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <noscript>
+        <style>
+            /**
+          * Reinstate scrolling for non-JS clients
+          */
+            .simplebar-content-wrapper {
+                overflow: auto;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body>
+    
+    
+<header class="header">
+    <div class="container">
+        <nav class="header__nav">
+            <div class="header__menu">
+                <a class="header__logo" href="#">
+                    <img class="header__image" src="img/logo.svg" alt="Логотип">
+                </a>
+                <ul class="header__list">
+                    <li class="header__item header__item--active">
+                        <a class="header__link" href="#">Каталог</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">История заказов</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">План заказов</a>
+                    </li>
+                    <li class="header__item header__item--mobile">
+                        <a class="header__link" href="#">Профиль</a>
+                    </li>
+                </ul>
+                <button class="header__menu-close hamburger hamburger--spring">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                    <span class="visually-hidden">Закрыть меню</span>
+                </button>
+            </div>
+            <h1>История заказов</h1>
+            <button class="header__mobile-btn header__mobile-btn--search">
+                <svg class="s-icon">
+                    <use xlink:href="img/svg/sprite1.svg#magnifier"></use>
+                </svg>
+                <span class="visually-hidden">Вызвать поле поиска</span>
+            </button>
+            
+            <a class="header__navblock" href="#">
+                <div class="header__icon">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#cart"></use>
+                    </svg>
+                </div>
+                <div class="header__info">
+                    <div class="header__top">352 245,59 ₸</div>
+                    <div class="header__text"><span>10</span> тов.</div>
+                </div>
+            </a>
+            <div class="header__navblock header__navblock--profile">
+                <div class="header__icon">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#user"></use>
+                    </svg>
+                </div>
+                <div class="header__info">
+                    <span class="header__top">Т. Бекмамбетов</span>
+                    <div class="header__text">
+                        АЗС №34, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                    </div>
+                </div>
+                <div class="header__dropdown">
+                    <div class="header__top header__top--dark">Тимур Бекмамбетов</div>
+                    <p class="header__descr">
+                        Товарищество с ограниченной ответственностью \"Alshaya Kazakhstan\" (Алшая Ка
+                    </p>
+                    <a class="header__btn btn btn--secondary btn--small" href="#">Сменить пароль</a>
+                    <a class="header__btn header__btn--exit btn btn--secondary btn--small" href="#"
+                        data-da="header__menu,0,991">Выйти</a>
+                </div>
+            </div>
+            <div class="search-block search-block--dark header__search">
+                <form class="search-block__form" action="search.php" method="POST">
+                    <label class="search-block__label">
+                        <span class="visually-hidden">Наименование или штрих-код</span>
+                        <input class="search-block__input" type="search"
+                            placeholder="Наименование или штрих-код">
+                    </label>
+                    <button class="search-block__icon" type="button">
+                        <span class="visually-hidden">Искать</span>
+                        <svg class="s-icon s-icon--large">
+                            <use xlink:href="img/svg/sprite1.svg#cancel"></use>
+                        </svg>
+                    </button>
+                </form>
+                <!-- Список с результатми поиска, для показа добавить класс active -->
+                <ul class="search-block__result">
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__title">
+                                АЗС №24, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                            </div>
+                            <p class="search-block__text">
+                                Актюбинская обл., Мугалжарский район, город районного значения
+                                Кандыгаш, трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </p>
+                        </a>
+                    </li>
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__title">
+                                АЗС №20, Национальная нефтегазовая компания «Газпром нефтегаздобыча»
+                            </div>
+                            <p class="search-block__text">
+                                Кандыгаш, трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </p>
+                        </a>
+                    </li>
+                    <li class="search-block__item">
+                        <a class="search-block__link" href="#">
+                            <div class="search-block__text">
+                                Актюбинская обл., Мугалжарский район, город районного значения Кандыгаш,
+                                трасса Актобе-Атырау автомобильные дороги граница РФ, стр. 19
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Класс немноного другой если не найдено ничего -->
+                    <!-- <li class="search-block__none">Ничего не найдено...</li> -->
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <main class="main">
+        <section>
+            
+            
+            
+            <div class="order-data order-data--history">
+    <div class="container">
+        <div class="order-data__inner">
+            
+            <h1>
+                Заказ №00140457902
+            </h1>
+            
+            <ul class="order-data__list">
+                <li class="order-data__item">
+                    <div class="order-data__subtitle">
+                        Дата заказа
+                    </div>
+                    <div class="order-data__text">
+                        08.12.2020, 10:30
+                    </div>
+                </li>
+                <li class="order-data__item">
+                    <div class="order-data__subtitle">
+                        Общая сумма
+                    </div>
+                    <div class="order-data__text">
+                        158 000,00 <span class="currency">₸</span>
+                    </div>
+                </li>
+                <li class="order-data__item">
+                    <div class="order-data__subtitle">
+                        Дата доставки
+                    </div>
+                    <div class="order-data__text">
+                        12.12.2020 г.
+                    </div>
+                </li>
+                <li class="order-data__item">
+                    <div class="order-data__subtitle">
+                        Адрес доставки
+                    </div>
+                    <div class="order-data__text">
+                        Буландынский район, г. Макинск, трасса АстанA-Петропавловск, 199 км
+                    </div>
+                </li>
+                <li class="order-data__item">
+                    <div class="order-data__subtitle">
+                        Компания
+                    </div>
+                    <div class="order-data__text">
+                        ПАО «Казмунайгаз»
+                    </div>
+                </li>
+                <li class="order-data__item">
+                    <div class="order-data__subtitle">
+                        Получатель
+                    </div>
+                    <div class="order-data__text">
+                        Иванов Иван Иванович, +7 958 599-96-65
+                    </div>
+                </li>
+            </ul>
+
+            
+            <button class="btn btn--primary btn--icon">
+                <span class="btn__icon">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#repeat"></use>
+                    </svg>
+                </span>
+                <span class="btn__text">Повторить весь заказ</span>
+            </button>
+            
+        </div>
+    </div>
+</div>
+
+            <div class="cart cart-order history-view">
+    <div class="container">
+        <div class="cart__inner">
+            
+
+
+            <div class="table cart__table">
+                <div class="caption caption--gray">
+                    <div class="caption__inner">
+                        <div class="caption__heading">Договор №232113 от 12.01.2020 г.</div>
+                        <div class="caption__status">
+                            <svg class="s-icon s-icon--md caption__icon">
+                                <use xlink:href="img/svg/sprite1.svg#done"></use>
+                            </svg>
+                            <div class="caption__text">Оплачен</div>
+                        </div>
+                        <div class="caption__status">
+                            <svg class="s-icon s-icon--md caption__icon">
+                                <use xlink:href="img/svg/sprite1.svg#done"></use>
+                            </svg>
+                            <div class="caption__text">Доставлен</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table__head">
+                    <div class="table__th table__th--first">Наименование / Штрих-код</div>
+                    <div class="table__th table__th--second">Цена</div>
+                    <div class="table__th table__th--fourth">Количество</div>
+                    <div class="table__th table__th--third">Итого</div>
+                </div>
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Губка для приборной панели Супер Блеск SAPFIRE
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                300,52 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">за уп. (10 шт.)</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            <div class="table__name">
+                                25 уп.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                7 513,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">без НДС</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Шторка солнцезащитная СТМ
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                2 300,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">за шт.</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            <div class="table__name">
+                                1 уп.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                120 300,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">в т. ч. НДС 8%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Сумка Crossbody DRIVER Athletics AWD 22
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                14 150,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">за уп. (5 шт.)</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            <div class="table__name">
+                                48 шт.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                15 500,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">в т. ч. НДС 12%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="table__footer">
+                    <a class="link-download table__footer-link" href="#" download>
+                        <span class="link-download__icon">
+                            <svg class="s-icon">
+                                <use xlink:href="img/svg/sprite1.svg#receipt"></use>
+                            </svg>
+                        </span>
+                        <span class="link-download__text">Скачать счет</span>
+                    </a>
+
+                    <a class="link-download table__footer-link" href="#" download>
+                        <span class="link-download__icon">
+                            <svg class="s-icon">
+                                <use xlink:href="img/svg/sprite1.svg#receipt"></use>
+                            </svg>
+                        </span>
+                        <span class="link-download__text">Скачать накладную</span>
+                    </a>
+
+                    <p class="table__footer-signature">Оплата до 12.01.2020 г.</p>
+                </div>
+            </div>
+
+            
+
+
+            <div class="table cart__table">
+                <div class="caption caption--gray">
+                    <div class="caption__inner">
+                        <div class="caption__heading">Договор №232114 от 12.01.2020 г.</div>
+                        <div class="caption__status">
+                            <svg class="s-icon s-icon--md caption__icon">
+                                <use xlink:href="img/svg/sprite1.svg#done"></use>
+                            </svg>
+                            <div class="caption__text">Оплачен</div>
+                        </div>
+                        <div class="caption__status">
+                            <svg class="s-icon s-icon--md caption__icon">
+                                <use xlink:href="img/svg/sprite1.svg#waiting"></use>
+                            </svg>
+                            <div class="caption__text">В обработке</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table__head">
+                    <div class="table__th table__th--first">Наименование / Штрих-код</div>
+                    <div class="table__th table__th--second">Цена</div>
+                    <div class="table__th table__th--fourth">Количество</div>
+                    <div class="table__th table__th--third">Итого</div>
+                </div>
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Губка для приборной панели Супер Блеск SAPFIRE
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                300,52 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">за уп. (10 шт.)</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            <div class="table__name">
+                                25 уп.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                7 513,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">без НДС</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Сумка Crossbody DRIVER Athletics AWD 22
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                14 150,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">за шт.</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            <div class="table__name">
+                                1 уп.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                15 500,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">в т. ч. НДС 8%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Набор отверток 12 в 1
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                100,52 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">за шт.</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            <div class="table__name">
+                                48 шт.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                4 824,96 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">без НДС</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="table__footer">
+                    <a class="link-download table__footer-link" href="#" download>
+                        <span class="link-download__icon">
+                            <svg class="s-icon">
+                                <use xlink:href="img/svg/sprite1.svg#receipt"></use>
+                            </svg>
+                        </span>
+                        <span class="link-download__text">Скачать счет</span>
+                    </a>
+
+                    <a class="link-download table__footer-link" href="#" download>
+                        <span class="link-download__icon">
+                            <svg class="s-icon">
+                                <use xlink:href="img/svg/sprite1.svg#receipt"></use>
+                            </svg>
+                        </span>
+                        <span class="link-download__text">Скачать накладную</span>
+                    </a>
+
+                    <p class="table__footer-signature">Оплата до 12.01.2020 г.</p>
+                </div>
+            </div>
+
+            
+
+
+            <div class="table cart__table">
+                <div class="caption caption--warning">
+                    <div class="caption__inner">
+                        <div class="caption__heading">Договор №232114 от 12.01.2020 г.</div>
+                        <div class="caption__status">
+                            <svg class="s-icon s-icon--md caption__icon">
+                                <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                            </svg>
+                            <div class="caption__text">Просрочен</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table__head">
+                    <div class="table__th table__th--first">Наименование / Штрих-код</div>
+                    <div class="table__th table__th--second">Цена</div>
+                    <div class="table__th table__th--fourth">Количество</div>
+                    <div class="table__th table__th--third">Итого</div>
+                </div>
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Губка для приборной панели Супер Блеск SAPFIRE
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                300,52 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">за уп. (10 шт.)</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            <div class="table__name">
+                                25 уп.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                7 513,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">без НДС</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="table__list">
+                    <div class="table__col table__col--first">
+                        <div class="table__col-first">
+                            <div class="table__image">
+                                <img src="img/catalog/photo1.jpg" alt="Две губки для приборной панели">
+                            </div>
+                            <div class="table__content">
+                                <div class="table__name">
+                                    Сумка Crossbody DRIVER Athletics AWD 22
+                                    
+                                </div>
+                                <div class="table__signature">48645186464561</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--second">
+                        <div class="table__col-second">
+                            <div class="table__name">
+                                14 150,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">за шт.</div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--fourth">
+                        <div class="table__col-fourth">
+                            <div class="table__name">
+                                1 уп.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__col table__col--third">
+                        <div class="table__col-third">
+                            <div class="table__name">
+                                15 500,00 <span class="table__currency">₸</span>
+                            </div>
+                            <div class="table__signature">в т. ч. НДС 8%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="table__footer">
+                    <a class="link-download table__footer-link" href="#">
+                        <span class="link-download__icon">
+                            <svg class="s-icon">
+                                <use xlink:href="img/svg/sprite1.svg#repeat-gray"></use>
+                            </svg>
+                        </span>
+                        <span class="link-download__text">повторить подзаказ</span>
+                    </a>
+                    <div class="table__footer-info">
+                        <span class="table__footer-icon">
+                            <svg class="s-icon">
+                                <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                            </svg>
+                        </span>
+                        Оплата просрочена, пожалуйста, повторите подзаказ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__content">
+                <a class="footer__logo" href="#">
+                    <picture class="footer__image">
+                        <source srcset="img/logo.svg" media="(max-width: 992px)">
+                        <img src="img/login/logo-mirrored.svg" alt="Логотип">
+                    </picture>
+                </a>
+                <div class="footer__subtitle">
+                    ТОО «DSF Trading Co». Сервис заказа товаров.
+                </div>
+                <div class="descr-block">
+                    <img class="descr-block__img" src="img/footer/3pl.svg" alt="">
+                    <p class="descr-block__text">
+                        3PL оператор с командой профессионалов и богатым опытом в области торговой логистики.
+                    </p>
+                </div>
+            </div>
+            <div class="footer__block footer__block--first">
+                <div class="footer__title">Контакты</div>
+                <ul class="footer__list">
+                    <li class="contact-line footer__item">
+                        <a class="contact-line__link contact-line__link--mobile" href="tel:+77273565817">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon s-icon--xs">
+                                    <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </a>
+                        <span class="contact-line__link">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon s-icon--xs">
+                                    <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </span>
+                    </li>
+                    <li class="contact-line footer__item">
+                        <a class="contact-line__link contact-line__link--mobile" href="tel:+77273565817">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon s-icon--xs">
+                                    <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </a>
+                        <span class="contact-line__link">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon s-icon--xs">
+                                    <use xlink:href="img/svg/sprite1.svg#phone"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </span>
+                    </li>
+                    <li class="contact-line footer__item">
+                        <a class="contact-line__link" href="https://wa.me/77273565817"  target="_blank" rel="noopener">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon">
+                                    <use xlink:href="img/svg/sprite1.svg#whatsapp"></use>
+                                </svg>
+                            </span>
+                            +7 727 356-58-17
+                        </a>
+
+                    </li>
+                    <li class="contact-line footer__item">
+                        <a class="contact-line__link" href="http://t.me/ivan_dyadyura" target="_blank" rel="noopener">
+                            <span class="contact-line__icon">
+                                <svg class="s-icon">
+                                    <use xlink:href="img/svg/sprite1.svg#telegram"></use>
+                                </svg>
+                            </span>
+                            @dsf.kz
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__block footer__block--second">
+                <div class="footer__title">Время работы</div>
+                <div class="footer__item">ПН-СБ с 9:00 до 17:00, ВС ‒ выходной</div>
+                <button class="footer__btn btn btn--small js-popup-btn" data-modal=".modal-form--main">обратная связь</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="footer__box">
+                <p>
+                    Информация на сайте не является публичной офертой. Указанные цены действуют только при оформлении
+                    заказа
+                    через сайт lk.dsf.kz
+                </p>
+                <p>
+                    Продолжая использовать наш сайт, вы соглашаетесь <a href="#">Политикой конфиденциальности</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+    <div class="modal-form modal-form--main" data-simplebar>
+    <div class="overlay"></div>
+    <form class="modal-form__box form" novalidate>
+        <button class="modal-form__close js-close" type="button">
+            <svg class="s-icon s-icon--largest">
+                <use xlink:href="img/svg/sprite1.svg#cancel"></use>
+            </svg>
+            <span class="visually-hidden">Закрыть модальное окно</span>
+        </button>
+        <div class="modal-form__title">Обратная связь</div>
+        <label class="field field--icon modal-form__field">
+            <span class="field__suptitle">Имя</span>
+            <input type="text" class="field__input" placeholder="Имя сотрудника" name="name" required>
+            <span class="field__icon" data-r-prompt="Обязательное поле">
+                <svg class="s-icon">
+                    <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                </svg>
+            </span>
+        </label>
+        <div class="modal-form__row">
+            <label class="field field--icon modal-form__field">
+                <span class="field__suptitle">E-mail</span>
+                <input type="email" class="field__input" placeholder="Ваш E-mail" name="name" required>
+                <span class="field__icon" data-r-prompt="Обязательное поле">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                    </svg>
+                </span>
+            </label>
+            <label class="field field--icon modal-form__field v-error">
+                <span class="field__suptitle">Телефон</span>
+                <input type="tel" class="field__input js-phone-mask" placeholder="+7 (___) ___-__-__" name="phone"
+                    required>
+                <span class="field__icon" data-r-prompt="Обязательное поле">
+                    <svg class="s-icon">
+                        <use xlink:href="img/svg/sprite1.svg#warning"></use>
+                    </svg>
+                </span>
+            </label>
+        </div>
+        <label class="field">
+            <span class="field__suptitle">Сообщение</span>
+            <textarea class="field__textarea" placeholder="Необязательно" name="message"></textarea>
+            <span class="form__error active">Неправильный номер телефона</span>
+        </label>
+        <button class="btn btn--primary btn--large modal-form__btn" type="submit">Отправить</button>
+    </form>
+</div>
+
+    <script src="plugins/simplebar.js"></script>
+    <script src="plugins/inputmask.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
